@@ -13,10 +13,9 @@ import UsersItems from "./components/UsersItems.vue";
 </template>
 
 <style scoped>
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@import "./main.css";
+
+.body {
   background-image: url("./assets/descarga.png");
   background-attachment: fixed;
   background-position: center;
@@ -26,9 +25,11 @@ body {
   min-height: 100vh;
   min-width: 100vw;
 }
+
 body.modal-open {
   overflow: hidden;
   height: 100vh;
 }
 </style>
+
 
