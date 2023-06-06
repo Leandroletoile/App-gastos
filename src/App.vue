@@ -8,7 +8,7 @@ import UsersItems from "./components/UsersItems.vue";
   <div class="body">
     <Header />
     <CardBills />
-    <UsersItems />z
+    <UsersItems />
   </div>
 </template>
 
