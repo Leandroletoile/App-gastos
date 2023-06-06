@@ -5,17 +5,18 @@ import UsersItems from "./components/UsersItems.vue";
 </script>
 
 <template>
-  <div class="body">
+  <div>
     <Header />
     <CardBills />
-    <UsersItems />
+    <UsersItems />z
   </div>
 </template>
 
 <style scoped>
-@import "./main.css";
-
 .body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url("./assets/descarga.png");
   background-attachment: fixed;
   background-position: center;
@@ -25,11 +26,4 @@ import UsersItems from "./components/UsersItems.vue";
   min-height: 100vh;
   min-width: 100vw;
 }
-
-body.modal-open {
-  overflow: hidden;
-  height: 100vh;
-}
 </style>
-
-
