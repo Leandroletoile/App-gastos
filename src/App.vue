@@ -13,8 +13,7 @@ import UsersItems from "./components/UsersItems.vue";
 </template>
 
 <style scoped>
-
-.body {
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,5 +30,5 @@ body.modal-open {
   overflow: hidden;
   height: 100vh;
 }
-
 </style>
+
