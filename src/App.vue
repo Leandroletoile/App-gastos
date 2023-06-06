@@ -5,7 +5,7 @@ import UsersItems from "./components/UsersItems.vue";
 </script>
 
 <template>
-  <div>
+  <div class="body">
     <Header />
     <CardBills />
     <UsersItems />z
